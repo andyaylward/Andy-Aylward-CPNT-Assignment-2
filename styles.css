@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 80px auto; 
+}
+
+.banner {
+    color: #fff;
+    background-color: #222;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.banner h1 {
+    margin-left: 50px;
+}
+
+.table-cols {
+    background-color: #b22222;
+    padding-top: 200px; 
+    color: #ddd;
+    
+}
+
+.temp, .humidity {
+    text-align: right;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+.time {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+}
+
+.temp-input, .humidity-input {
+    text-align: right;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    font-weight: 600;
+}
+
+.time-input {
+    background-color: #ddd;
+    padding-top: 20px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    text-align: left;
+    font-weight: 500;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0px 4px 25px -5px rgba(0,0,0,0.75);  
+}
+
+.time-input, .temp-input, .humidity-input {
+    border-bottom: solid lightgrey 1px;
+}
+
+.table-header {
+    font-weight: lighter;
+    color: #b22222;
+    margin-bottom: 0px;
+    font-size: 32px;
+}
